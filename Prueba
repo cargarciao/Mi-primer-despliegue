@@ -1,0 +1,21 @@
+Mi-primer-despliegue/
+│
+├── ci-cd/
+│   ├── github-actions/
+│   │   └── pipeline.yml      # Ejemplo pipeline CI/CD en GitHub Actions
+│   └── gitlab-ci/
+│       └── .gitlab-ci.yml    # Ejemplo pipeline CI/CD en GitLab
+│
+├── docker/
+│   ├── app/                  
+│   │   ├── Dockerfile        # Dockerfile para una app simple en Python o Node.js
+│   │   └── app.py / index.js # App mínima "Hello World"
+│   └── docker-compose.yml    # Orquestación local con base de datos + app
+│
+├── kubernetes/
+│   ├── deployment.yaml       # Deployment de la app en K8s
+│   ├── service.yaml          # Service para exponerla
+│   ├── configmap.yaml        # ConfigMap de ejemplo
+│   └── helm-chart/           # (Opcional) Helm chart básico
+│
+└── README.md                 # Explica qué contiene cada carpeta
